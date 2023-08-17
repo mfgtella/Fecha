@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>FECHA</title>
+</head>
+<body>
+    <header>
+        <h1 style="margin-bottom: -40px; text-align: center;height: 50vh;" > Calculadora de días laborales </h1>
+    <div class="group">  
+        <label for="dia">Día:</label>
+        <input type="number" id="dia" min="1" max="31" required><br>
+        <label for="mes">Mes:</label>
+        <input type="number" id="mes" min="1" max="12" required><br>
+        <label for="anio">Año:</label>
+        <input type="number" id="anio" min="2020" required><br>
+    </div>  
+    <div>
+        <button onclick="calcularLaboral()">Calcular</button>
+    </div>
+    <div>
+     
+        <p id="resultado"></p>
+    </div>    
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./Practica fecha.js"></script>
+</body>
+</html>
