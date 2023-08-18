@@ -20,10 +20,7 @@ console.log(century(1995));
 function year(number1) {
     let x = (number1 % 100);
     b = Math.floor(x * 1.25);
-
-
     return b;
-
 };
 
 console.log(year(1995));
